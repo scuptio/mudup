@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 set -eu
 
-REPO="${MUDUP_INIT_REPO:-scuptio/mududb}"
+REPO="${MUDUP_INIT_REPO:-scuptio/mudup}"
 TARGET="${MUDUP_INIT_TARGET:-x86_64-unknown-linux-gnu}"
 INSTALL_BIN_DIR="${HOME}/.local/bin"
 MUDUP_HOME_DIR="${MUDUP_HOME:-${HOME}/.mududb}"
